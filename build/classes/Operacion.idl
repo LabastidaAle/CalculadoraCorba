@@ -1,0 +1,13 @@
+module OperacionApp
+{
+  interface Operacion
+  {
+    //operaciones (métodos)
+    string ejecutarOperacion(in string nombre, in long tam);
+    long sumar (in long num1,in long num2);
+    long restar (in long num1,in long num2);
+    long multiplicar (in long num1,in long num2);
+    long dividir (in long num1,in long num2);
+    oneway void apagarConexion();
+  };
+};
